@@ -7,4 +7,5 @@ void main() {
   const myAge = 25;
 
   print('Hola $myName $myLastName - $myAge');
+  print('Hola Mundo!');
 }
