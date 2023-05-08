@@ -6,7 +6,13 @@ void main() {
   final sprites = <String>['charmander/front.png'];
 
   // dynamic == null
-  dynamic? errorMessage = 'Hola';
+  dynamic errorMessage = 'Hola';
+  errorMessage = 30;
+  errorMessage = [1, 2, 3, 4, 5];
+  errorMessage = {1, 2, 3, 4, 5};
+  errorMessage = () => true;
+  errorMessage = null;
+  print(errorMessage);
 
   print("""
     $pokemon
